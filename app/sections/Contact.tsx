@@ -21,11 +21,11 @@ export default function Contact() {
 
         <div className="mt-10 flex flex-col items-center gap-6">
           <a
-            href="tel:+12125551234"
+            href="tel:+16462419800"
             className="inline-flex items-center gap-2 rounded-md bg-black px-8 py-4 text-base font-medium text-white transition-colors hover:bg-black/80"
           >
             <Phone className="h-5 w-5" />
-            Call (212) 555-1234
+            Call (646) 241-9800
           </a>
 
           <a

@@ -16,7 +16,6 @@ type AboutProps = {
   ctaLabel?: string;
   imageSrc?: string;
   imageAlt?: string;
-  stats?: Stat[];
 };
 
 export default function About({
@@ -27,11 +26,6 @@ export default function About({
   ctaLabel = "Free case evaluation",
   imageSrc = "/images/about.png",
   imageAlt = "Two professionals shaking hands",
-  stats = [
-    { value: "10k", label: "Clients worldwide" },
-    { value: "95%", label: "Success rate" },
-    { value: "50+", label: "Awards & honors" },
-  ],
 }: AboutProps) {
   return (
     <section className="bg-white py-16 md:py-24" id="about">
@@ -78,19 +72,6 @@ export default function About({
             >
               {ctaLabel}
             </Link>
-          </div>
-
-          <div className="lg:col-span-8 lg:pl-6">
-            <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
-              {stats.map((s) => (
-                <div key={`${s.value}-${s.label}`}>
-                  <div className="font-serif text-4xl tracking-tight text-black md:text-5xl">
-                    {s.value}
-                  </div>
-                  <div className="mt-3 text-sm text-black/55">{s.label}</div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

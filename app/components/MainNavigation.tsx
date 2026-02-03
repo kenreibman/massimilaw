@@ -137,7 +137,7 @@ function PracticeAreaDropdown({
           </ul>
           <div className="mt-6 pt-4 border-t border-black/10">
             <a
-              href="tel:+12125551234"
+              href="tel:+16462419800"
               onClick={onClose}
               className="inline-block w-full text-center border border-black px-4 py-2.5 text-sm font-medium text-black transition-colors duration-200 hover:bg-black hover:text-white"
             >
@@ -203,16 +203,16 @@ export default function MainNavigation() {
           <div className="hidden items-center gap-6 md:flex">
             {/* Phone */}
             <a
-              href="tel:+12125551234"
+              href="tel:+16462419800"
               className="flex items-center gap-2 text-black/70 transition-colors hover:text-black"
             >
               <IconPhone className="h-4 w-4" />
-              <span className="text-sm">(212) 555-1234</span>
+              <span className="text-sm">(646) 241-9800</span>
             </a>
 
             {/* Contact Button */}
             <a
-              href="tel:+12125551234"
+              href="tel:+16462419800"
               className="bg-black px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-black/80"
             >
               Call Now
@@ -222,7 +222,7 @@ export default function MainNavigation() {
           {/* Mobile: Phone + Hamburger */}
           <div className="flex items-center gap-2 md:hidden">
             <a
-              href="tel:+12125551234"
+              href="tel:+16462419800"
               className="inline-flex items-center justify-center p-2 text-black"
               aria-label="Call us"
             >
@@ -295,11 +295,11 @@ export default function MainNavigation() {
         <div className="h-[calc(100dvh-4rem)] overflow-y-auto px-6 py-6">
           {/* Phone */}
           <a
-            href="tel:+12125551234"
+            href="tel:+16462419800"
             className="mb-6 flex items-center gap-2 text-black/80"
           >
             <IconPhone className="h-5 w-5" />
-            <span>(212) 555-1234</span>
+            <span>(646) 241-9800</span>
           </a>
 
           {/* Practice Areas Accordion */}
@@ -388,7 +388,7 @@ export default function MainNavigation() {
           {/* Contact Button */}
           <div className="mt-8">
             <a
-              href="tel:+12125551234"
+              href="tel:+16462419800"
               onClick={() => setMobileMenuOpen(false)}
               className="block w-full bg-black py-4 text-center text-lg font-medium text-white"
             >

@@ -110,11 +110,11 @@ export default function CaseEvaluation() {
               </p>
 
               <a
-                href="tel:+12125551234"
+                href="tel:+16462419800"
                 className="inline-flex items-center gap-3 bg-black px-10 py-5 text-lg font-medium text-white rounded-lg hover:bg-black/80 transition-colors"
               >
                 <Phone className="h-6 w-6" />
-                (212) 555-1234
+                (646) 241-9800
               </a>
 
               <p className="mt-6 text-xs text-black/40">

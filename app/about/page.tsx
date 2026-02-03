@@ -29,7 +29,7 @@ const attorney = {
 
   As a working mother and New Yorker, Jessica understands the challenges faced by working parents and the collective desire to create a safe, just, and equitable city for all.
 
-  Throughout her 15-year career, Jessica has litigated hundreds of cases in state and federal courts, and private mediations and arbitrations, and has recovered millions of dollars for her clients. Jessica is a proud graduate of CUNY School of Law and member of the National Police Accountability Project.`,
+  Throughout her 15-year career, Jessica has litigated hundreds of cases in state and federal courts, and private mediations and arbitrations, and has recovered millions of dollars for her clients.`,
 
   education: [
     {
@@ -360,7 +360,7 @@ export default function AboutPage() {
             description: "Experienced civil rights and employment discrimination attorney serving New York City. 15+ years litigating cases in state and federal courts.",
             image: "/images/about.png",
             url: "https://massimiLaw.com/about",
-            telephone: "(212) 555-1234",
+            telephone: "(646) 241-9800",
             address: {
               "@type": "PostalAddress",
               addressLocality: "New York",

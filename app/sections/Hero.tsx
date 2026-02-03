@@ -67,7 +67,7 @@ export default function Hero() {
               variants={item}
               className="font-serif text-5xl leading-[1.05] tracking-tight text-black md:text-6xl"
             >
-              We deliver the
+              We deliver
               <br />
               results that are <br />
               worth your trust.
@@ -83,7 +83,7 @@ export default function Hero() {
 
             <motion.div variants={item} className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="tel:+12125551234"
+                href="tel:+16462419800"
                 className="rounded-md bg-black px-6 py-3 text-base font-medium text-white shadow-sm"
               >
                 Call for Free Consultation
