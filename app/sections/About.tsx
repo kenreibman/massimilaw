@@ -24,8 +24,8 @@ export default function About({
   body = "MassimiLaw is a New York City–based civil rights and employment discrimination law firm dedicated to standing up for working people and holding powerful institutions accountable. The firm represents individuals harmed by police misconduct, government abuse, and unlawful workplace practices—because a safer, more just, and more equitable city is possible. \n\n With deep experience litigating in state and federal courts, MassimiLaw brings a strategic, client-centered approach to every case. The firm has handled hundreds of matters through litigation, mediation, and arbitration, and has recovered millions of dollars for clients. \n\n MassimiLaw is proud to be rooted in New York City and committed to advocacy that creates real change for individuals, families, and communities.",
   ctaHref = "#contact",
   ctaLabel = "Free case evaluation",
-  imageSrc = "#",
-  imageAlt = "",
+  imageSrc = "/images/about.png",
+  imageAlt = "Mother holding baby",
 }: AboutProps) {
   return (
     <section className="bg-white py-16 md:py-24" id="about">
