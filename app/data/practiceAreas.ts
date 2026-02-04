@@ -1277,5 +1277,5 @@ export const sharedData = {
     "Westchester",
     "New York State",
   ],
-  phone: "(212) 555-0123",
+  phone: "(646) 241-9800",
 };

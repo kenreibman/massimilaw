@@ -226,7 +226,7 @@ export default function EditorialSEOPreview() {
               style={{ borderColor: "#1A1A1A" }}
             >
               <Phone className="h-4 w-4" />
-              (212) 555-0123
+              (646) 241-9800
             </a>
           </motion.div>
 
@@ -498,7 +498,7 @@ export default function EditorialSEOPreview() {
                 style={{ color: "#9A8866" }}
               >
                 <Phone className="h-4 w-4" />
-                (212) 555-0123
+                (646) 241-9800
               </a>
             </div>
           </motion.div>
@@ -634,7 +634,7 @@ export default function EditorialSEOPreview() {
                 style={{ borderColor: "rgba(250, 250, 248, 0.3)" }}
               >
                 <Phone className="h-4 w-4" />
-                (212) 555-0123
+                (646) 241-9800
               </a>
             </div>
 
