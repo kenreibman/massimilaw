@@ -336,14 +336,14 @@ export default function AboutPage() {
             </p>
 
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link
+              <a
                 href="#contact"
                 className="group inline-flex items-center gap-3 px-8 py-4 text-base font-medium transition-all duration-300"
                 style={{ backgroundColor: "#1A1A1A", color: "#FAFAF8" }}
               >
                 Free Case Evaluation
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
+              </a>
             </div>
           </motion.div>
         </div>

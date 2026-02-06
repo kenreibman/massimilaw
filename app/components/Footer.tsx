@@ -2,18 +2,32 @@
 
 import Link from "next/link";
 
-const nav = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Team", href: "#team" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+const employmentLaw = [
+  { label: "Employment Discrimination", href: "/practice/employment-discrimination" },
+  { label: "Sexual Harassment", href: "/practice/sexual-harassment" },
+  { label: "Pregnancy Discrimination", href: "/practice/pregnancy-discrimination" },
+  { label: "Wrongful Termination", href: "/practice/wrongful-termination" },
+  { label: "Racial Discrimination", href: "/practice/racial-discrimination" },
+  { label: "Workplace Harassment", href: "/practice/workplace-harassment" },
+  { label: "Paid Family Leave Violations", href: "/practice/paid-family-leave-violations" },
+  { label: "FMLA Violations", href: "/practice/fmla-violations" },
+  { label: "Labor Law Violations", href: "/practice/labor-law-violations" },
+  { label: "Wage & Hour Violations", href: "/practice/wage-hour-violations" },
+];
+
+const civilRights = [
+  { label: "Civil Rights Violations", href: "/practice/civil-rights-violations" },
+  { label: "Police Brutality", href: "/practice/police-brutality" },
+  { label: "Excessive Force", href: "/practice/excessive-force" },
+  { label: "False Arrest", href: "/practice/false-arrest" },
+  { label: "Malicious Prosecution", href: "/practice/malicious-prosecution" },
+  { label: "Denial of Fair Trial", href: "/practice/denial-of-fair-trial" },
 ];
 
 const legal = [
-  { label: "Privacy Policy", href: "#" },
-  { label: "Terms of Service", href: "#" },
-  { label: "Cookie Policy", href: "#" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms of Service", href: "/terms-of-service" },
+  { label: "Cookie Policy", href: "/cookie-policy" },
 ];
 
 export default function Footer() {
@@ -34,13 +48,32 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
+          {/* Employment Law */}
           <div className="md:col-span-3">
             <div className="mb-4 text-xs uppercase tracking-widest text-black/50">
-              Navigation
+              Employment Law
             </div>
             <ul className="space-y-3 text-sm">
-              {nav.map((item) => (
+              {employmentLaw.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="text-black/70 hover:text-black"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Civil Rights */}
+          <div className="md:col-span-2">
+            <div className="mb-4 text-xs uppercase tracking-widest text-black/50">
+              Civil Rights
+            </div>
+            <ul className="space-y-3 text-sm">
+              {civilRights.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}
@@ -54,7 +87,7 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-2">
             <div className="mb-4 text-xs uppercase tracking-widest text-black/50">
               Contact
             </div>
@@ -74,7 +107,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="pt-2 text-xs text-black/50">
-                © {new Date().getFullYear()} MassimiLaw LLP
+                © {new Date().getFullYear()} MassimiLaw PLLC
               </div>
             </div>
           </div>

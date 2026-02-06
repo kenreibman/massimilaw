@@ -64,9 +64,9 @@ export default function Services() {
         <div className="mt-12 text-center">
           <p className="text-sm text-black/50">
             Don't see your situation listed?{" "}
-            <Link href="#contact" className="text-black underline underline-offset-2 hover:no-underline">
+            <a href="#contact" className="text-black underline underline-offset-2 hover:no-underline">
               Contact us
-            </Link>{" "}
+            </a>{" "}
             — we handle many related cases.
           </p>
         </div>

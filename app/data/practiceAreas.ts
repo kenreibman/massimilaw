@@ -1241,7 +1241,7 @@ export function getPracticeArea(slug: string): PracticeArea | undefined {
 }
 
 // Get all practice area slugs for static generation
-export function getAllPracticeAreaSlugs(): string[] {
+export function getAPLLCracticeAreaSlugs(): string[] {
   return Object.keys(practiceAreas);
 }
 
