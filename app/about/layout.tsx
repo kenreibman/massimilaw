@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "MassimiLaw",
     images: [
       {
-        url: "/images/jessica.png",
+        url: "/images/hero.webp",
         width: 800,
         height: 1000,
         alt: "Jessica Massimi - Civil Rights Attorney",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "About Jessica Massimi | Civil Rights Attorney NYC",
     description:
       "15+ years fighting for civil rights and employment discrimination cases in NYC. CUNY Law graduate. Free consultation.",
-    images: ["/images/jessica.png"],
+    images: ["/images/hero.webp"],
   },
   alternates: {
     canonical: "/about",
