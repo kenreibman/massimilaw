@@ -103,7 +103,7 @@ export default function AboutPage() {
                 />
                 <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-200">
                   <Image
-                    src="/images/about.jpg"
+                    src="/images/about.JPG"
                     alt="Jessica Massimi Portrait"
                     fill
                     priority
