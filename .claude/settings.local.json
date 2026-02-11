@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(npm install:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm view:*)",
+      "Bash(npm --version:*)",
+      "Bash(del \"C:\\\\Users\\\\ken.reibman\\\\massimilaw\\\\package-lock.json\")",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRegenerate package-lock.json to fix Vercel EINTEGRITY failure\n\nThe integrity hashes for debug@4.4.3 and brace-expansion@1.1.12 were\nmismatched between the local npm version and Vercel''s npm version.\nDeleting and regenerating the lockfile produces correct checksums.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }

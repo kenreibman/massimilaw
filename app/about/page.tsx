@@ -103,8 +103,8 @@ export default function AboutPage() {
                 />
                 <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-200">
                   <Image
-                    src="#"
-                    alt="Jessica Massimi - Civil Rights Attorney"
+                    src="/images/about.jpg"
+                    alt="Jessica Massimi Portrait"
                     fill
                     priority
                     className="object-cover"
