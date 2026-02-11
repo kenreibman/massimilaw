@@ -358,7 +358,7 @@ export default function AboutPage() {
             "@type": "Attorney",
             name: "Jessica Massimi",
             description: "Experienced civil rights and employment discrimination attorney serving New York City. 15+ years litigating cases in state and federal courts.",
-            image: "/images/about.png",
+            image: "/images/hero.webp",
             url: "https://massimiLaw.com/about",
             telephone: "(646) 241-9800",
             address: {
